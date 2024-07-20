@@ -1,0 +1,66 @@
+body {
+    background-color: grey;
+    height: 100px;
+}
+
+#basic-form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    padding: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 500px; 
+    background-color: wheat;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+   
+}
+
+.container h1, p {
+    text-align: center;
+}
+
+/* FULL-WIDTH INPUT FIELDS */
+
+input {
+    width: 93%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+/* SET A STYLE FOR ALL BUTTONS */
+
+button {
+    background-color: #00aeef;
+    color: black;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
